@@ -14,7 +14,7 @@ sg_ingress_rule = {
   from_port   = 22
   to_port     = 22
   protocol    = "tcp"
-  cidr_blocks = ["187.57.101.147"]
+  cidr_blocks = ["187.57.101.147/32"]
 }
 
 sg_egress_rule = {
